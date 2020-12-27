@@ -1,3 +1,17 @@
+a {
+  text-decoration: none;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+
 body article header {
   width: auto;
   padding-top: 5px;
@@ -43,14 +57,14 @@ article li {
 
 article li a {
   color: black;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   padding-right: 10px;
   text-decoration: none;
   color: black;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 14;
+  font-size: 16px;
 }
 
 aside {
@@ -146,7 +160,7 @@ article footer li a {
   color: white;
   font-weight: bold;
   font-family: sans-serif;
-  font-size: 14;
+  font-size: 14px;
 }
 
 h3 {
